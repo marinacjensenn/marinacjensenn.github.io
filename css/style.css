@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* preto: #000000;
+azul: #00BFC3;
+rosa: #FF2273;
+amarelo: #FFD33B;
+barnco: #FFFFFF; */
+body {
+    background-image: url(/midia/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+}
+#box {
+    background-color: #ffd53b;
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    border-style: dashed;
+}
+h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 300%;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'VT323', sans-serif;
+    font-size: 200%;
+    color: black;
+}
+
+a {
+    text-decoration: underline;
+}
+
+#form {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+
+label {
+    font-size: 130%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+}
+
+.form {
+    margin-bottom: 3%;
+    background-color: #fae06b;
+    width: 60%;
+    height: 15%;
+    font-family: monospace;
+}
+
+.button {
+    position: relative;
+    left: 60%;
+    border: solid 2px black;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #fae06b;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.success {
+    background-color: #FFD33B;
+    position: relative;
+    bottom: 200%;
+    width: 100%;
+}
+
+.success p {
+    font-family: 'Ubuntu Mono', monospace;
+}
